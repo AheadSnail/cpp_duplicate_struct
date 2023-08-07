@@ -4,7 +4,7 @@ project(cpp_test)
 set(CMAKE_CXX_STANDARD 20)
 set(SOURCE_FILES "")
 
-set(CMAKE_BUILD_TYPE Release)
+#set(CMAKE_BUILD_TYPE Release)
 
 add_subdirectory(user_msg)
 add_subdirectory(guest_msg)
