@@ -13,12 +13,12 @@ struct TestStructParam {
     bool is_forward{true};
 
     TestStructParam() {
-        cout << "roam_msg_mgr.h construct execute" << endl;
-        cout << "roam_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(this) << endl;
-        cout << "roam_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&user_id) << endl;
-        cout << "roam_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&peer_id) << endl;
-        cout << "roam_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&msg_id) << endl;
-        cout << "roam_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&count) << endl;
-        cout << "roam_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&is_forward) << endl;
+        cout << "guest_msg_mgr.h construct execute" << endl;
+        cout << "guest_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(this) << endl;
+        cout << "guest_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&user_id) << endl;
+        cout << "guest_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&peer_id) << endl;
+        cout << "guest_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&msg_id) << endl;
+        cout << "guest_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&count) << endl;
+        cout << "guest_msg_mgr.h construct execute this " << reinterpret_cast<uint64_t>(&is_forward) << endl;
     }
 };
