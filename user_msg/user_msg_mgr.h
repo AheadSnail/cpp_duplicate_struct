@@ -14,11 +14,11 @@ struct TestStructParam {
     bool is_forward{true};
 
     TestStructParam() {
-        cout << "roam_msg_mgr.h construct execute this " << static_cast<void *>(this) << endl;
-        cout << "roam_msg_mgr.h construct user_id execute this " << static_cast<void *>(&user_id) << endl;
-        cout << "roam_msg_mgr.h construct peer_id execute this " << static_cast<void *>(&peer_id) << endl;
-        cout << "roam_msg_mgr.h construct msg_id execute this " << static_cast<void *>(&msg_id) << endl;
-        cout << "roam_msg_mgr.h construct count execute this " << static_cast<void *>(&count) << endl;
-        cout << "roam_msg_mgr.h construct msg_size execute this " << static_cast<void *>(&msg_size) << endl;
+        cout << "user_msg_mgr.h construct execute this " << static_cast<void *>(this) << endl;
+        cout << "user_msg_mgr.h construct user_id execute this " << static_cast<void *>(&user_id) << endl;
+        cout << "user_msg_mgr.h construct peer_id execute this " << static_cast<void *>(&peer_id) << endl;
+        cout << "user_msg_mgr.h construct msg_id execute this " << static_cast<void *>(&msg_id) << endl;
+        cout << "user_msg_mgr.h construct count execute this " << static_cast<void *>(&count) << endl;
+        cout << "user_msg_mgr.h construct msg_size execute this " << static_cast<void *>(&msg_size) << endl;
     }
 };
