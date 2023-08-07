@@ -10,8 +10,6 @@ add_subdirectory(guest_msg)
 set(SOURCE_FILES ${SOURCE_FILES} ${SOURCE})
 add_executable(cpp_test main.cpp ${SOURCE_FILES})
 
-#静态文件链接
-target_link_libraries(cpp_test libA libB)
 
 # 开启 asm 进行野指针检测 输出所有的警告
 target_compile_options(cpp_test PRIVATE -fsanitize=address -Wall -Wextra)
